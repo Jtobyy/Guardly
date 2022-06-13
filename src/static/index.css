@@ -1,0 +1,154 @@
+html, body {
+    height: fit-content;    
+}
+body {
+    background-color: #E5E5E5 !important;
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+    font-family: 'Clash Display', sans-serif !important;
+    box-sizing: border-box;
+}
+header {
+    margin-right: 4.59% !important;
+    height: 12vh !important;
+    font-size: 1.17vw;
+}
+.header-nav {
+    margin-left: 13vw;
+}
+.header-nav div {
+    height: fit-content;
+}
+.home {
+    width: 4.23vw;
+    height: 5vh;
+    text-align: center;
+    position: relative;
+    line-height: 5vh;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #3D73DD;   
+}
+.aboutus {
+    width: 5.11vw;
+}
+.aboutus,
+.services,
+.contact {
+    margin-left: 4vw;
+    height: fit-content !important;
+}
+.signin {
+    margin-left: 6vw;
+    width: 8vw;
+    height: 7vh;
+    color: #3D73DD;
+    border: solid 1px #3D73DD;
+    border-radius: 7px;
+    background-color: transparent;
+}
+.hidden {
+    display: none;
+}
+.uid {
+    margin-left: 1.17vw;
+    width: 14vw;
+    height: 7vh;
+    color: white;
+    border-radius: 7px;
+    border-color: transparent;
+    background-color: #3D73DD;
+}
+section {
+    margin-top: -5vh;
+    display: block;
+}
+.section-header {
+    font-size: 4.09vw;
+    font-weight: 600;
+    width: 48.76vw;
+    line-height: 12.5vh;
+}
+.section-content {
+    margin-top: -10px; 
+    font-size: 1.46vw;
+    font-weight: 400;
+    line-height: 6vh;
+    width: 45vw;
+    letter-spacing: 1.37px;
+}
+.aside {
+    position: relative;
+    top: 38px;
+    left: 20px;
+}
+.aside-img {
+    margin-top: 15vh;
+    position: absolute;
+    width: 28vw;
+    height: 30vw;
+}
+.aside-img1 {
+    margin-left: -1vw;    
+    margin-top: 13.5vh;
+}
+.aside-img3 {
+    width: 34vw;
+    height: 29vw;
+    margin-left: -3vw;
+    margin-top: 14vh;
+    z-index: 3;
+}
+.aside-img4 {
+    width: 29.5vw;
+    height: 35vw;
+    margin-top: 8.5vh;
+    margin-left: -2.5vw;
+    z-index: 2;
+}
+.aside-img5,
+.aside-img6 {
+    width: 40vw;    
+    height: 43vw;
+    margin-top: 1vh;
+    margin-left: -8vw;
+}
+
+.getidbtnwrapper {
+    margin-top: -15px;
+    height: 8.5vh;
+    width: 27vw;
+}
+.getid {
+    width: 17vw;
+    height: inherit;
+    color: white;
+    background-color: #3D73DD;
+    border-radius: 7px;
+    border: transparent;
+}
+.circle {
+    width: 10px;
+    height: 10px;
+    background-color: #3D73DD;
+}
+.circle1 {
+    position: relative;    
+    left: -20px;
+}
+.circle2 {
+    position: relative;    
+    left: -50px;
+    background-color: #C4C4C4;
+}
+footer {
+    margin-top: 60vh;
+}
+.getstarted {
+    background-color: blue;
+}
+@media screen and (max-width: 800px){
+    .aside-img5,
+    .aside-img6 {
+        margin-top: 6vh;           
+    }
+}
