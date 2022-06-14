@@ -1,0 +1,123 @@
+.getstarted {
+    background-color: #F8F8F8;
+    font-family: 'Clash Display', sans-serif !important;
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding-left: 6vw !important;
+    background-image: url(../static/signupbg.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 60vw;
+}
+.signup-main {
+    margin-right: 6vw !important;
+    margin-bottom:100px;
+    height: fit-content;
+}
+.aside-header {
+    margin-top: 150px;    
+    font-size: 4.09vw;
+    font-weight: 600;
+    line-height: 7vh;
+    letter-spacing: 1px;
+}
+.aside-content {
+    font-size: 1.46vw;
+    font-weight: 400;
+    line-height: 5.5vh;
+    white-space: pre-wrap;
+    letter-spacing: 1.37px;
+}
+.form-aside {
+    width: 50vw;        
+    position: relative;
+    top: -10px;
+    background-color: #F8F8F8;
+    border-radius: 16px;
+    height: fit-content;
+    box-shadow: 0 0 10px -1px rgba(0, 0, 0, .2);   
+    margin-bottom: 40px;
+}
+.form {
+    height: fit-content;    
+    color: #0E2045;    
+    padding-top: 70px;
+    padding-bottom: 80px;
+    font-size: 1.46vw;
+}
+.form label {
+    font-weight: 500;
+}
+.form input {
+    font-size: 1.46vw;    
+    background-color: transparent;
+}
+.single-input {
+    width: calc(100% + 20px);
+}
+.image-input {
+    border-style: dashed;
+    font-size: 1.46vw;
+    text-align: center;
+    border-color: #3D73DD;
+    background-color: transparent;
+    position: relative;
+    box-sizing: content-box;
+    width: calc(100% - 5px);
+}
+.image-input p {
+    cursor: pointer;
+    padding: 5px;
+    font-weight: 400 !important;
+}
+.image-input p img {
+    width: 13px;
+    margin: 0 10px;
+    margin-bottom: 2px;
+}
+.btnrequniid {
+    width: calc(100% + 20px);
+    height: 8vh;
+    border-radius: 6px;
+    background-color: #3D73DD;
+    color: white;
+    font-size: 1.46vw;
+    border-color: transparent;
+}
+
+@media screen and (max-width: 728px) {
+    .termsp {
+        font-size: 1.46vw !important;
+    }    
+    .aside-content {
+        line-height: 4vh;
+    }    
+    .form-aside { 
+        top: 20px;
+        width: 100vw !important;
+    }
+    .signup-main {
+        align-items: center;
+        justify-content: center;
+    }    
+    .aside-header {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .aside-content {
+        line-height: 3vh;
+        font-size: 9px;
+    }
+    .form input,
+    .form label {
+        font-size: 9px;
+    }.termsp {
+        font-size: 9px !important;
+    }
+    .btnrequniid {
+        font-size: 9px;        
+    }
+}    

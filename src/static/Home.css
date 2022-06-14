@@ -1,12 +1,13 @@
 html, body {
-    height: fit-content;    
+    height: 100%;    
 }
-body {
+
+.landing {
     background-color: #E5E5E5 !important;
-    padding-left: 2% !important;
-    padding-right: 2% !important;
+    padding-left: 6vw !important;
     font-family: 'Clash Display', sans-serif !important;
     box-sizing: border-box;
+    min-height: 100vh;
 }
 header {
     margin-right: 4.59% !important;
@@ -46,9 +47,6 @@ header {
     border-radius: 7px;
     background-color: transparent;
 }
-.hidden {
-    display: none;
-}
 .uid {
     margin-left: 1.17vw;
     width: 14vw;
@@ -59,17 +57,18 @@ header {
     background-color: #3D73DD;
 }
 section {
-    margin-top: -5vh;
     display: block;
 }
 .section-header {
+    margin-top: 95px;    
     font-size: 4.09vw;
     font-weight: 600;
     width: 48.76vw;
-    line-height: 12.5vh;
+    line-height: 10vh;
+    height: 138px;
 }
 .section-content {
-    margin-top: -10px; 
+    margin-top: -25px; 
     font-size: 1.46vw;
     font-weight: 400;
     line-height: 6vh;
@@ -78,8 +77,8 @@ section {
 }
 .aside {
     position: relative;
-    top: 38px;
-    left: 20px;
+    top: 0px;
+    left: 30px;
 }
 .aside-img {
     margin-top: 15vh;
@@ -112,15 +111,14 @@ section {
     margin-top: 1vh;
     margin-left: -8vw;
 }
-
 .getidbtnwrapper {
-    margin-top: -15px;
+    margin-top: 40px;
     height: 8.5vh;
     width: 27vw;
 }
 .getid {
     width: 17vw;
-    height: inherit;
+    height: 8.5vh;
     color: white;
     background-color: #3D73DD;
     border-radius: 7px;
@@ -143,12 +141,77 @@ section {
 footer {
     margin-top: 60vh;
 }
-.getstarted {
-    background-color: blue;
-}
 @media screen and (max-width: 800px){
     .aside-img5,
     .aside-img6 {
         margin-top: 6vh;           
     }
+}
+@media screen and (max-width: 728px) {
+    .header-nav {    
+        margin-left: 10vw;
+    }
+    .home {
+        line-height: 3vh;
+    }
+    .signin,
+    .uid {
+        height: 5vw;
+    }
+    .section-header {
+        margin-top: 90px;    
+        font-weight: 600;
+        line-height: 1.5em;
+        height: fit-content;
+    }
+    .section-content {
+        margin-top: 10px; 
+        font-size: 1.46vw;
+        font-weight: 400;
+        line-height: 2em;
+        width: 45vw;
+        letter-spacing: 1.37px;
+    }
+    .getidbtnwrapper {
+        margin-top: 40px;
+        height: 5vw;
+        width: fit-content;
+    }
+    .getid {
+        width: fit-content;
+        font-size: 9px;
+        height: 6vh;
+        color: white;
+        background-color: #3D73DD;
+        border-radius: 7px;
+        border: transparent;
+    }
+    .circle {
+        width: 8px;
+        height: 8px;
+        background-color: #3D73DD;
+    }
+    .circle1 {
+        left: 20px;
+    }
+    .circle2 {
+        position: relative;    
+        left: 30px;
+        background-color: #C4C4C4;
+    }
+       
+}
+@media screen and (max-width: 500px) {
+    header {
+        font-size: 9px;
+    }  
+    .signin,
+    .uid {
+        width: fit-content;
+        height: 30px;
+    }
+    .header-nav {
+        display: none !important;
+    }
+    
 }

@@ -24,13 +24,33 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <link rel="stylesheet" href="%PUBLIC_URL%/static/index.css" />
+    
     <link rel="stylesheet" href="%PUBLIC_URL%/static/bootstrap.min.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/static/gen.css" />
     <link href="http://fonts.cdnfonts.com/css/clash-display" rel="stylesheet">
 
     <title>React App</title>
   </head>
-  <body>
+  <body class="position-relative">  
+    <img src="%PUBLIC_URL%/logoonly.png" class="loading hidden" id="loading">  
     <div id="root"></div>
+    <div class="sidenavtoggle" onclick="toggleSidebar()">
+      <div class="sidenavtogglediv sidenavtogglediv1"></div>
+      <div class="sidenavtogglediv sidenavtogglediv2"></div>
+      <div class="sidenavtogglediv sidenavtogglediv3"></div>
+    </div>
+    <div class="sidebar">
+        <p>Home</p>
+        <p>About us</p>        
+        <p>Services</p>
+        <p>Contact</p>
+    </div>
+    <script>
+      function toggleSidebar() {
+      const sidebar = document.querySelector('.sidebar')
+      if (sidebar.classList.length == 1) sidebar.classList.add('closed');
+      else sidebar.classList.remove('closed');
+      }
+    </script>
   </body>
 </html>
